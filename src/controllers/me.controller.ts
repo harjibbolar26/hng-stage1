@@ -9,7 +9,7 @@ export const getProfile = async (req: Request, res: Response) => {
             user: {
                 email: process.env.USER_EMAIL,
                 name: process.env.USER_NAME,
-                stackemail: process.env.USER_STACK,
+                stack: process.env.USER_STACK,
             },
             timestamp: new Date().toISOString(),
             fact: catFact

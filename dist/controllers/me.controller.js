@@ -10,7 +10,7 @@ const getProfile = async (req, res) => {
             user: {
                 email: process.env.USER_EMAIL,
                 name: process.env.USER_NAME,
-                stackemail: process.env.USER_STACK,
+                stack: process.env.USER_STACK,
             },
             timestamp: new Date().toISOString(),
             fact: catFact
